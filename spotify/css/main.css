@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.menu_header{
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    
+}
+
+.logo{
+ width: 100px;
+}
+
+.menu_list{
+    list-style: none;
+}
