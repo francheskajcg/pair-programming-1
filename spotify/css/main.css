@@ -7,21 +7,17 @@
 .header{
     background-color: black;
     display: flex;
-    flex-direction: column;
-    
+    justify-content: space-between;
+    align-items: center;
 }
 
-.menu_header{
-    display: flex;
-    justify-content: flex-end;
-    color: white;
-    
-}
 
 .logo{
  width: 100px;
 }
 
 .menu_list{
+    display: flex;
     list-style: none;
+    color: white;
 }
