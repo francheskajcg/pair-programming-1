@@ -18,16 +18,28 @@
     margin: 20px;
 }
 
+.menu {
+    display: flex;
+}
 
-.menu_list {
+.menu_list1 {
     display: flex;
     list-style: none;
     font-weight: bold;
     color: white;
 }
 
+.menu_list2 {
+    display: flex;
+    list-style: none;
+    font-weight: bold;
+    color: white;
+    border-left: solid 3px white;
+    padding-left: 7.5px;
+    padding-right: 7.5px;
+}
+
 .menu-list-item {
-    display: inline-block;
     margin-right: 15px;
 }
 
@@ -37,12 +49,15 @@
     align-items: left;
     color: white;
     background-color: #5D8AF5;
-    position: relative;
     padding: 50px;
     background-image: url('../images/premium_dancer.png');
-    background-position: right center;
+    background-position: right;
     background-size: contain;
     background-repeat: no-repeat;
+}
+
+.h1-container {
+    width: 75%;
 }
 
 .h1-section1 {
@@ -53,12 +68,13 @@
 
 .paragraph-section1 {
     margin-left: 20px;
+    font-weight: bold;
 }
 
 .button-container {
-    display: flex; 
-    justify-content: flex-start; 
-    margin-top: 20px; 
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 20px;
 }
 
 .button {
@@ -67,7 +83,7 @@
     color: white;
     border: none;
     border-radius: 20px;
-    padding: 10px 30px 10px 30px;
+    padding: 10px 40px 10px 40px;
     margin: 40px 40px 40px 20px;
     background-color: rgb(0, 200, 83);
 }
